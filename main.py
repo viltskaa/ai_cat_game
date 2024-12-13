@@ -68,7 +68,7 @@ while running:
         sprites.add(score)
 
     screen.fill((128, 128, 128))
-    map_group.draw(screen)
+    # map_group.draw(screen)
     sprites.draw(screen)
     pygame.display.flip()
 
